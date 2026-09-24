@@ -32,11 +32,11 @@ function Hero() {
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">
-            {profile ? profile.name : 'Loading...'}
+            {profile?.name || 'Kundan Kumar Mondal'}
           </h1>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-blue-400 mb-6">
-            {profile ? profile.role : 'Loading...'}
+            {profile?.role || 'Full Stack Developer'}
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed max-w-xl mx-auto md:mx-0 mb-8">
