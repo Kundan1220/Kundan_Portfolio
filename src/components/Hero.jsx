@@ -64,7 +64,7 @@ function Hero() {
             </a>
 
             <a
-                href="/Kundan_mondal_resume.pdf"
+                href="/Kundan_CV.pdf"
               download
               className="px-6 py-3 rounded-lg border border-gray-600 text-gray-300 font-semibold hover:border-blue-500 hover:text-blue-400 transition duration-300"
             >
