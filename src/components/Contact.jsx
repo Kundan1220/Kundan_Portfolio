@@ -47,7 +47,7 @@ function Contact() {
   event.preventDefault()
 
   try {
-    const response = fetch(`${API_URL}/api/contact`, {
+    const response = await fetch(`${API_URL}/api/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
